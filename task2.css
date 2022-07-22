@@ -1,31 +1,37 @@
- .row {
-    display: flex;
-    }
+.row {
+  display: flex;
+}
 
 .column {
-    flex: 50%;
-    padding: 10px;
-    }
-
-body {background-color: rgb(251, 247, 135);}
-p {color: rgb(255, 255, 121);
-   font-family: "Lucida Console", "Courier New", monospace;
-}
-h1 {color: rgb(255, 255, 121);
-    font-family: "Lucida Console", "Courier New", monospace;
+  flex: 50%;
+  padding: 10px;
 }
 
-h2 {color: rgb(255, 255, 121);
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: larger;
+body {
+  background-color: rgb(251, 247, 135);
+}
+p {
+  color: rgb(255, 255, 121);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+h1 {
+  color: rgb(255, 255, 121);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+  color: rgb(255, 255, 121);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: larger;
 }
 
 h3 {
-    color: rgb(255, 255, 121);
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: larger;
-    text-decoration: underline;
+  color: rgb(255, 255, 121);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: larger;
+  text-decoration: underline;
 }
-ul {color: rgb(255, 255, 121);
-    font-family: "Lucida Console", "Courier New", monospace;
+ul {
+  color: rgb(255, 255, 121);
+  font-family: "Lucida Console", "Courier New", monospace;
 }
