@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2 Task 4 - API'</title>
+  </head>
+  <body>
+    <canvas
+      id="canvas1"
+      width="300"
+      height="200"
+      style="border: 1px solid red"
+    ></canvas>
+    <video width="320" height="240" controls loop autoplay>
+      <source src="video.mov" type="video/mov" />
+      <source src="video.mov" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+
+    <audio controls>
+      <source src="audio.m4a" type="audio/aac" />
+      <source src="audio.m4a" type="audio/aac" />
+      Audio unavailable.
+    </audio>
+
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">
+        Introducing the new MacBook Air. Supercharged by M2. With an impossibly
+        thin design. All-day battery life*. And a stunning 13.6-inch Liquid
+        Retina display. Don&#39;t take it lightly. Subject to availability.
+        *Battery life varies by use.
+      </p>
+      &mdash; Apple (@Apple)
+      <a
+        href="https://twitter.com/Apple/status/1549267486222082048?ref_src=twsrc%5Etfw"
+        >July 19, 2022</a
+      >
+    </blockquote>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ldX-ab758l8"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <script>
+      var c = document.getElementById("canvas1");
+      var ctx = c.getContext("2d");
+      ctx.moveTo(0, 100);
+      ctx.lineTo(300, 100);
+      ctx.stroke();
+    </script>
+  </body>
+</html>
